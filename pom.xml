@@ -21,7 +21,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   			<artifactId>maven-war-plugin</artifactId>
   			<version>3.3.2</version>
   			<type>maven-plugin</type>
-</dependency>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.2.2.RELEASE</version>
+		</dependency>
  </dependencies>
  
  <build>
